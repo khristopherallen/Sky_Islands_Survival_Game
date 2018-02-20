@@ -12,7 +12,6 @@ if (place_meeting(x,y,o_player_hitbox)) {
 
 
 if (health_<=0) {
-	destroy = false;
 	if (fallDir == 0) {
 		fallDir = o_player.directionLR;
 	}
